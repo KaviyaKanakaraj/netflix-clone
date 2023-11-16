@@ -3,45 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css" />
     <title>Home | Netflix</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>
-                <img src = "assets/logo.png" alt="netflix logo" />
-            </li>
-            <li>
-                Home
-            </li>
-            <li>
-                TV Shows
-            </li>
-            <li>
-                Movies
-            </li>
-            <li>
-                New & Popular
-            </li>
-            <li>
-                My List
-            </li>
-            <li>
-                Browse by Languages
-            </li>
-            <li>
-                <img src="assets/search.jpg" alt="search" />
-            </li>
-            <li>
-                Children
-            </li>
-            <li>
-                <img src="assets/notif.jpg" alt="notif" />
-            </li>
-            <li>
-                <img src="assets/profile.png" alt="avatar" />
-            </li>
-        </ul>
-    </nav>
+    <div class = "nav">
+        <nav>
+            <ul>
+                <li>
+                    <a src = "index.html">
+                        <img src = "assets/logo.jpg" alt="netflix logo" />
+                    </a>
+                </li>
+                <li>
+                    Home
+                </li>
+                <li>
+                    TV Shows
+                </li>
+                <li>
+                    Movies
+                </li>
+                <li>
+                    New & Popular
+                </li>
+                <li>
+                    My List
+                </li>
+                <li>
+                    Browse by Languages
+                </li>
+                <li>
+                    <img src="assets/search.png" alt="search" />
+                </li>
+                <li>
+                    Children
+                </li>
+                <li>
+                    <img src="assets/notif.png" alt="notif" />
+                </li>
+                <li>
+                    <img src="assets/profile.png" alt="avatar" />
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="banner">
+        <div class="ban-content">
+            <h1 class="ban-title"></h1>
+            <div class="ban-btns">
+                <button id="play-btn">Play</button>
+                <button id="list-btn">My List</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="row-head">
+            K-Dramas
+        </div>
+        <div class="row-poster"></div>
+    </div>
 </body>
 </html>
